@@ -1,0 +1,36 @@
+{ "object1": {
+			"givenName": "a common mug for coffee",
+			"shape": "common cyliner, about 10 cm long, 8 cm wide opening diameter, 5 cm wide diameter at bottom",
+			"texture": {
+				"type": "pattern",
+				"pattern_type": "pattern of circles",
+				"colors": ["light blue", "darker blue", "even darker blue", "black", "white"],
+				"capacity": "5 dl"
+			},
+			"can_serve": ["coffee", "tea", "orange juice"]
+		}
+	
+	
+, 	"object2": {
+		"givenName": "Box of Colour Pencils",
+		"details": {
+			"number_of_pencils": 24,
+			"pencils_used": ["dark green", "light green", "yellow", "orange", "red", "blue",
+				"light pink", "dark pink", "light brown", "dark brown"
+			],
+			"related_office_equipment": ["pencil sharpener", "eraser", "white paper", "blue pen", "lead pencil"]
+		}
+	}
+
+, 	 "object3": {
+		"givenName": "calculator",
+		"how_many_buttons":  16,
+		"can_add": true,
+		"can_subtact": true,
+		"can_multiply": true,
+		"can_divide": true,
+		"has_memory_buttons": false,
+		"number_buttons": [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+	}
+	
+}
